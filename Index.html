@@ -1,0 +1,76 @@
+<!--Author Bathiya Seneviratne-->
+<!--Feel free to follow me on GitHub :D -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+    <script src="location.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="loc.css">
+
+    <title>IP Locator</title>
+
+</head>
+
+<body style="background-color:#F8F8F8">
+
+    <div style="text-align:center; color: indigo">
+        <h1>IP Locator</h1>
+        <input type="text" id="ip" style="text-align:center; font-size: 15px; font-weight: bold;"
+            placeholder="Insert IP address here..."><br><br>
+        <button onclick="locations()">Locate</button>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+    <div>
+        <table>
+            <tr>
+                <th>Attribute</th>
+                <th style="text-align:center">Information</th>
+            </tr>
+            <tr>
+                <td>City</td>
+                <td id="city" style="text-align:center"></td>
+            </tr>
+            <tr>
+                <td>Region</td>
+                <td id="region" style="text-align:center"></td>
+            </tr>
+            <tr>
+                <td>Region code</td>
+                <td id="region_code" style="text-align:center"></td>
+            </tr>
+            <tr>
+                <td>Country</td>
+                <td id="country_name" style="text-align:center"></td>
+            </tr>
+            <tr>
+                <td>Postal</td>
+                <td id="postal" style="text-align:center"></td>
+            </tr>
+            <tr>
+                <td>Time zone</td>
+                <td id="timezone" style="text-align:center"></td>
+            </tr>
+        </table>
+    </div>
+
+    <div style="text-align:center; color:red; font-size: 12px;">
+        <p>*Data can be changed due to an API changes. providing empty ip values will show your ip details.</p>
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>
